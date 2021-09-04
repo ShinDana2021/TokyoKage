@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 64px;
+    line-height: 64px;
+    background-color: #ef4444;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 1.25rem;
+    color: #fff;
+    padding-left: 2rem;
+}
+.header .logo:hover{
+    cursor: pointer;
+}
+.header .nav {
+    padding-right: 2rem;
+}
+.nav>ul {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    text-transform: uppercase;
+}
+.nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+.nav>ul>li>a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.header .icon-menu{
+    display: none;
+}
+.icon-home, .icon-menu-food, .icon-about, .icon-contact, .icon-close {
+    display: none;
+}
+
+/* Slider */
+.slider{
+    width: 100%;
+    background-image: url(../IMAGE/photo-1502364271109-0a9a75a2a9df.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    padding-top: 67%;
+}
+.slider>.text {
+    width: 100%;;
+    color:#dc2626;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+}
+
+/* Content */
+.cap {
+    display: flex;
+    font-size: 2.25rem;
+    padding: 1.5rem 1.5rem 0;
+}
+.cap-name {
+    margin-left: 0.25rem;
+    padding: 20px 4px 20px
+}
+.icon-cap {
+    color: red;
+    padding: 20px 4px 20px
+}
+.row {
+    max-width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col {
+    flex: 1;
+    margin: 64px 20px;
+}
+.row .col:hover {
+    cursor: pointer;
+}
+.col>img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.name-food {
+    text-align: center;
+    line-height: 3rem;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 36px;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 8px;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(0, 84%, 60%);
+    display: flex;
+    flex-direction: column;
+}
+.last {
+    margin: 0.5rem 0;
+}
+.last-1 {
+    margin-bottom: 0.5rem;
+}
+.last-2 {
+    margin-bottom: 0.5rem;
+}
