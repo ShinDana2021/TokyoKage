@@ -9,6 +9,6 @@ menu.onclick = function() {
 var Close = document.querySelector('.icon-close')
 Close.onclick = function() {
     nav.style.display = 'none'
-    menu.style.display = 'block'
     Close.style.display = 'none'
+    menu.style.display = 'block'
 }
