@@ -146,6 +146,9 @@ html {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+.btn:hover {
+    cursor: pointer;
+}
 .bag {
     display:inline-block
 }
