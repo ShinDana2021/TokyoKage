@@ -64,4 +64,33 @@
     .row-2 .col-2 {
         margin: 30px 20px;
     }
+    .btn {
+        top: 64%;
+        left: 33% ;
+    }
+
+}
+
+@media (min-width:741px) and (max-width:1183px) {
+    .btn {
+        top: 64%;
+        left: 36% ;
+    }
+}
+
+@media (min-width:300px) and (max-width:543px) {
+    .btn {
+        font-size: 16px;
+        padding: 5px 10px;
+        top: 64%;
+        left: 34% ;
+    }
+}
+@media (min-width:544px) and (max-width:739px) {
+    .btn {
+        font-size: 16px;
+        padding: 5px 10px;
+        top: 64%;
+        left: 40% ;
+    }
 }
